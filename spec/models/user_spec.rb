@@ -48,4 +48,13 @@ describe User do
       user.full_name.should eq 'John Doe'
     end
   end
+
+  describe '#page' do
+    it 'returns a list of 50 records' do
+      
+    end
+    it 'sorts records by karma points descending' do
+      
+    end
+  end
 end

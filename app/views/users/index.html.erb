@@ -1,4 +1,6 @@
 <h1>KarmaVille's Most Famous</h1>
+<%= will_paginate @users %>
+
 <table class="table table-bordered table-striped">
   <tr>
     <th>Karma</th>
@@ -9,4 +11,7 @@
   <% @users.each do |user| %>
     <%= render 'user_row', :user => user %>
   <% end %>
+
 </table>
+
+<%= will_paginate @users %>
