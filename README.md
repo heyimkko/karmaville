@@ -12,3 +12,5 @@ $ rake db:setup
 ```
 
 The `rake db:setup` command could take several minutes to run.
+
+#Sped up Karmaville to under 200ms.
